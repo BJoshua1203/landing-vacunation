@@ -6,12 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vacunación</title>
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="bar">
         <h1 id="title">Vacunación</h1>
         <ul id="menu">
-            <li><a href="#base">Base de datos</a></li>
+            <li><a href="#base">Inicio</a></li>
             <li><a href="#educacion">Educación</a></li>
             <li><a href="#after">Después</a></li>
             <li><a href="#contact">Contacto</a></li>
@@ -21,14 +24,14 @@
         </ul>
     </div>
 
-    <div class="container">
+    <div>
         <section id="base">
             <div>
-                <h2>Luchémos juntos contra el virus</h2>
-                <p>Tú puedes ayudar a evitar los contagios, informándote y vacunándote para cuidarte y a los demás</p>
+                <h2 id="slogan">Luchémos juntos contra el virus</h2>
+                <p id="msg">Tú puedes ayudar a evitar los contagios, informándote y vacunándote para cuidarte y a los demás</p>
             </div>
             
-            <img src="https://gacetadental.com/wp-content/uploads/2020/12/Vacuna_Covid.jpg" alt="vacuna">
+            <img src="https://gacetadental.com/wp-content/uploads/2020/12/Vacuna_Covid.jpg" alt="vacuna" id="main-img">
 
         </section>
     </div>
@@ -40,41 +43,49 @@
         <img src="https://sputnikvaccine.com/local/templates/sputnik/img/logo_inner_new2.jpg" alt="sputnik">
     </div>
 
-    <div class="container">
+    
         <nav id="educacion">
             <h3>¿Por qué debería vacunarme?</h3>
-
-            <p>Vacunarse contra el COVID-19 en una forma más segura de generar protección que contraer COVID-19. La vacunación contra el COVID-19 ayuda a protegerlo al crear una respuesta de generación de anticuerpos sin tener que sufrir la enfermedad.</p>
-            <div id="info">
-                <p>Vacunarse contra el COVID-19 puede reducir su riesgo de contraer y propagar el virus que causa el COVID-19. Las vacunas también pueden ayudar a prevenir la enfermedad grave e incluso la muerte.</p>
-                <p>Se han tomado todas las medidas para garantizar que las vacunas sean seguras y efectivas para las personas de 5 años de edad o más.</p>
-                <p>Si ya tuvo COVID-19, igualmente debe recibir la vacuna contra el COVID-19 para estar más protegido.</p>
-                <p>Luego de ponerse al día con la vacunación contra el COVID-19, puede reanudar muchas de sus actividades con las precauciones correspondientes (p. ej., uso de mascarillas en espacios públicos cerrados).</p>
+            <div class="container">
+                <div id="info">
+                    <p>Vacunarse contra el COVID-19 en una forma más segura de generar protección que contraer COVID-19. La vacunación contra el COVID-19 ayuda a protegerlo al crear una respuesta de generación de anticuerpos sin tener que sufrir la enfermedad.</p>
+                    <p>Vacunarse contra el COVID-19 puede reducir su riesgo de contraer y propagar el virus que causa el COVID-19. Las vacunas también pueden ayudar a prevenir la enfermedad grave e incluso la muerte.</p>
+                    <p>Se han tomado todas las medidas para garantizar que las vacunas sean seguras y efectivas para las personas de 5 años de edad o más.</p>
+                    <p>Si ya tuvo COVID-19, igualmente debe recibir la vacuna contra el COVID-19 para estar más protegido.</p>
+                    <p>Luego de ponerse al día con la vacunación contra el COVID-19, puede reanudar muchas de sus actividades con las precauciones correspondientes (p. ej., uso de mascarillas en espacios públicos cerrados).</p>
+                </div>
+                <img src="img/doc.png" alt="doctor">
             </div>
-            <img src="img/doc.png" alt="doctor">
         </nav>
-    </div>
+   
 
-    <div class="container">
+   
         <nav id="after">
             <h3>Después de la vacuna</h3>
+            <div class="container">
+                <img src="img/vac1.png" alt="vacuna1">
+                <div>
             <p>Quédate un tiempo para verificar que estás bien. El profesional sanitario debería observarte durante unos 15 minutos después de administrarte la vacuna por si sufres alguna reacción inmediata. Sin embargo, es muy poco frecuente que se produzcan reacciones graves relacionadas con la salud.</p>
             <p>Prepárate para posibles efectos secundarios. Las vacunas están diseñadas para proporcionarte inmunidad sin exponerte al peligro de contraer la enfermedad. Si bien es habitual generar inmunidad sin que se produzca una reacción, también es frecuente que se produzcan efectos secundarios leves o moderados que desaparecen por sí solos en unos días.</p>
             <p>Ten paciencia. Crear inmunidad requiere tiempo. Se considerará que estás completamente vacunado una vez que hayan transcurrido dos semanas de la segunda dosis de la vacuna de Pfizer-BioNtech o la de Moderna; 15 días desde la segunda dosis de la vacuna de AstraZeneca; o dos semanas desde la única dosis de la vacuna de J&J/Janssen contra la COVID-19.</p>
-            <img src="img/vac1.png" alt="vacuna1">
-    </div>
+            </div>
+            
+         </div>
 
-    <div class="container">
+    
         <nav id="contact">
             <h3>Comunícate con nosotros para más información</h3>
+            <div class="container">
+                <div>
             <p>Estado de méxico
                 800 900 3200
             </p>
             <p>
                 Ciudad de méxico
-                555 658 1111 o envía un SMS con la palabra covid19 al 51515
+                555 658 1111 <br> o envía un SMS con la palabra covid19 al 51515
+    
             </p>
-
+        </div>
             <div id="lineas">
                 <p>Líneas telefónicas</p>
                 <p>
@@ -88,9 +99,10 @@
                 <p>800 628 3762
                     Atención a mujeres en embarazo, parto, puerperio o lactancia
                 </p>
-                <img src="img/vac2.png" alt="vacuna2">
             </div>
-        </nav>
-    </div>
+            <img src="img/vac2.png" alt="vacuna2">
+        </div>
+            </nav>
+        
 </body>
 </html>
