@@ -1,4 +1,4 @@
-html{
+ehtml{
     scroll-behavior: smooth;
 }
 
@@ -12,7 +12,7 @@ div#bar{
     width: 100%;
     top: 0px;
     right: 0px;
-    border-radius: 0px 0px 10px 10px;
+    
     background-color: rgb(135, 169, 219);
     max-height: 100px;
     text-align: center;
@@ -164,6 +164,69 @@ h3{
 
 
 
+/* Tarjetas de contacto */
 
 
+div.contact-box{
+    height: 150px;
+    width: 300px;
+    padding: 10px;
+    
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 3px 3px 5px black;
+    
+}
 
+div.contact-box div{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    padding: 0px 0px 0px 50px;
+    font-size: 60px;
+}
+
+.icon-c{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgba(87, 53, 53, 0);
+    background-color: rgba(0, 38, 255, 0.932);
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.btn{
+    color: #fff;
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    background-color: blue;
+    border-radius: 6px;
+    font-family: 'League Spartan', sans-serif;
+    font-style: inherit;
+    box-shadow: 2px 2px 5px rgb(65, 97, 156);
+}
+
+/* bara inferior */
+
+.baru{
+    position: relative;
+    bottom: 0px;
+    right: 0px;
+    background-color: antiquewhite;
+    padding: 5%;
+}
+
+.baru #under{
+    display: flex;
+    
+}
+
+#underg{
+    padding: 0% 10% 0% 0%;
+}
+
+#under div{
+    padding: 0% 3%;    
+}
