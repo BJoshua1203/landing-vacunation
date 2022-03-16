@@ -15,8 +15,8 @@
         <h1 id="title">Vacunación</h1>
         <ul id="menu">
             <li><a href="#base">Inicio</a></li>
-            <li><a href="#educacion">Educación</a></li>
-            <li><a href="#after">Después</a></li>
+            <li><a href="#educacion">Información</a></li>
+            <li><a href="#after">Cuidados</a></li>
             <li><a href="#contact">Contacto</a></li>
         </ul>
         <!-- <button id="warning">Cuídado con esto</button> -->
@@ -26,7 +26,7 @@
         <section id="base">
             <div>
                 <h2 id="slogan">Luchémos juntos contra el virus</h2>
-                <p id="msg">Tú puedes ayudar a evitar los contagios, informándote y vacunándote para cuidarte y a los demás</p>
+                <!-- <p id="msg">Tú puedes ayudar a evitar los contagios, informándote y vacunándote para cuidarte y a los demás</p> -->
             </div>
             
             <img src="https://gacetadental.com/wp-content/uploads/2020/12/Vacuna_Covid.jpg" alt="vacuna" id="main-img">
@@ -56,15 +56,17 @@
                 </div>
                 
             </div>
-            <img src="img/doc.png" alt="doctor" class="vac">
+            <img src="img/doc.png" alt="doctor" class="vac" id="doctor">
         </nav>
    
 
    
-        <nav id="after">
-            <h3>Después de la vacuna</h3>
+    <nav id="after">
+        <h3>Después de la vacuna</h3>
             <div class="container">
-                <img src="img/vac1.png" alt="vacuna1" class="vac">
+                
+                    <img src="img/vac1.png" alt="vacuna1" class="vac" id="geringa">
+                
                 <div>
                        
                     <p><ion-icon name="cafe-outline" class="icon"></ion-icon>       Quédate un tiempo para verificar que estás bien.Sin embargo, es muy poco frecuente que se produzcan reacciones graves relacionadas con la salud.</p>
@@ -74,15 +76,15 @@
                     <p> <ion-icon name="dice-outline" class="icon"></ion-icon>  Ten paciencia. Crear inmunidad requiere tiempo. </p>
                     <hr>
                     <p><ion-icon name="happy-outline" class="icon"></ion-icon>      Se considerará que estás completamente vacunado una vez que hayan transcurrido dos semanas.</p>
-            </div>
+                </div>
             
-         </div>
+            </div>
 
     
     <nav id="contact">
         <h3>Comunícate con nosotros para más información</h3>
 
-        <p>Puedes contactarnos si tú o alguno de tus familiares tiene síntomas o dudas al respecto</p>
+        <p id="msgfinal">Puedes contactarnos si tú o alguno de tus familiares tiene síntomas o dudas al respecto</p>
         <div class="container">
                 
                 <div>
@@ -138,7 +140,7 @@
                             </p>
                             
                         </div>
-                        <button class="btn">Atención a mujeres en embarazo,</button>
+                        <button class="btn">Atención a mujeres </button>
                     </div>
 
                 </div>
@@ -150,20 +152,22 @@
         <div class="baru">
             <nav id="under">
                 <div id="underg">
-                    <strong>Vacunación</strong> <br>
-                    Nuestra misión es ayudar a reducir lso daños por la pandemia.
+                    <strong>Vacunación</strong> <br> 
+                    <p id="under-info"> Nuestra misión es ayudar a reducir los daños por la pandemia.</p>
                 </div>
                 <div>
                     <strong> sobre nosotros</strong> <br><br>
-                    Conoce más <br>
-                    Datos   <br>
-                    Otra cosa   <br>
+                    <ul class="final">
+                        <li> Conoce más</a></li>
+                        <li> Cómoo trabajamos</li>
+                        <li> Datos</li>
+                    </ul>
 
                 </div>
                 <div>
                     <strong>Compañía</strong> <br>
-                    <ul>
-                        <li> <a href=""> ¿Como trabajamos? </a></li>
+                    <ul class="final">
+                        <li> ¿Como trabajamos? </a></li>
                         <li> Capital </li>
                         <li>Seguridad </li>
                     </ul>
@@ -171,9 +175,11 @@
 
                 <div>
                     <strong>Soporte</strong> <br>
-                    FAQs
-                    Centro de Soporte
-                    Contactanos
+                    <ul class="final">
+                        <li>  FAQs</a></li>
+                        <li> Soporte </li>
+                        <li> Contáctanos </li>
+                    </ul>
 
                 </div>
             </nav>
